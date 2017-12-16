@@ -1,0 +1,19 @@
+{
+    "name": "nolbertovilchez/padlock-sdk",
+    "description": "Padlock SDK PHP",
+    "type": "sdk",
+    "authors": [
+        {
+            "name": "Jose Nolberto Vilchez Moreno",
+            "email": "jnolbertovm@gmail.com"
+        }
+    ],
+    "require": {
+        "nolbertovilchez/http": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nolbertovilchez\\sdk\\padlock\\": "src/"
+        }
+    }
+}
